@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">HW-02</string>
+    <string name="View">登入狀態</string>
+    <string name="editTextUsername">Username</string>
+    <string name="editTextPassword">Password</string>
+    <string name="Login">Log In</string>
+</resources>
