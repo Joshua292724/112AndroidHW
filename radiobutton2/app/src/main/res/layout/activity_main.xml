@@ -10,7 +10,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="性別:"
+        android:text="@string/gender"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,15 +34,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:checked="true"
-            android:text="男"
+            android:text="@string/male"
             tools:text="@string/male" />
 
         <RadioButton
             android:id="@+id/rdbGirl"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="女"
-            tools:text="@string/female" />
+            android:text="@string/female"
+            tools:text='@string/female' />
     </RadioGroup>
 
     <RadioGroup
@@ -59,21 +59,21 @@
             android:id="@+id/rdbAdult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="全票"
+            android:text="@string/regularticket"
             tools:text="@string/regularticket" />
 
         <RadioButton
             android:id="@+id/rdbStudent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="學生票"
+            android:text="@string/studentticket"
             tools:text="@string/studentticket" />
 
         <RadioButton
             android:id="@+id/rdbChild"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="兒童票"
+            android:text="@string/childticket"
             tools:text="@string/childticket" />
 
     </RadioGroup>
@@ -109,7 +109,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="12dp"
         android:layout_marginTop="28dp"
-        android:text="購買張數 :"
+        android:text="@string/NumberOfSheets"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/button"
@@ -176,7 +176,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="144dp"
-        android:text="票種:"
+        android:text="@string/ticketType"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
@@ -184,6 +184,7 @@
         app:layout_constraintHorizontal_bias="0.032"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:text="@string/ticketType" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
